@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">DinamicFragment</string>
     <string name="add_btn">Добавить</string>
+    <string name="one_layout">One layout</string>
 </resources>
