@@ -8,8 +8,9 @@
 
 
     <LinearLayout
+        android:id="@+id/linearLayqut"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical">
 
         <Button
@@ -20,8 +21,10 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"></LinearLayout>
+        android:orientation="vertical"
+        android:layout_below="@id/linearLayqut"></LinearLayout>
 
 </RelativeLayout>
